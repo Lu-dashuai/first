@@ -1,7 +1,7 @@
-# falg = False
+# fag = False
 # name = input('请输入姓名：')
 # if name == 'python':
-#     falg = True
+#     fag = True
 #     print('welcome boss')
 # else:
 #     print(name)
@@ -17,3 +17,15 @@
 #     print("相当与人的年龄%d"%human)
 # # 退出提示
 # input("点击enter键退出")
+
+o = 30
+bo = True
+while bo:
+    num = int(input("猜猜这个数字："))
+    if num == o:
+        print('恭喜老铁，猜对了')
+        bo = False
+    elif num > o:
+        print('不好意思，猜大了')
+    else:
+        print('不好意思猜小了')
